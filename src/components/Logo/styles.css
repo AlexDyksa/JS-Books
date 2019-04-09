@@ -1,0 +1,19 @@
+.app-logo_link {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #420001;
+    text-decoration: none;
+}
+
+.app-logo_link:hover,
+.app-logo_link:active,
+.app-logo_link:link,
+.app-logo_link:visited {
+    color: #420001;
+}
+
+.app-logo_link img {
+    height: 60px;
+    margin-right: 5px;
+}
