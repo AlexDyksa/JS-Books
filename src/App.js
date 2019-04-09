@@ -25,13 +25,13 @@ class App extends Component {
                     </div>
 
                     <div className="app-content">
-                        <Route exact path="/books" render={props => <Sidenav topics={topics} {...props} />}
+                        <Route exact path="/books/:topic?" render={props => <Sidenav topics={topics} {...props} />}
                         />
 
                         <Switch>
                             <Route path="/" exact component={Home} />
                             <Route path="/about" component={About} />
-                            <Route path="/books" component={Books} />
+                            <Route path="/books/:topic?" component={Books} />
                             <Route path="/contacts" component={Contacts} />
                             <Route component={NotFound} />
                         </Switch>
