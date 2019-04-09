@@ -12,4 +12,19 @@
 .app-content {
     display: flex;
     height: 100%;
+    justify-content: space-between;
+}
+
+.books {
+    width: 80%;
+}
+
+.books-list {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.book img {
+    width: 200px;
+    float: left;
 }
