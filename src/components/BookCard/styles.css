@@ -1,0 +1,10 @@
+.book-card {
+    width: 300px;
+    border: 1px solid grey;
+    padding: 15px;
+    /* margin: 10px; */
+}
+.book-card img {
+    float: left;
+    width: 30%;
+}
