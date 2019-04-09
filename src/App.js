@@ -5,6 +5,11 @@ import './App.css';
 import Logo from './components/Logo';
 import Navigation from './components/Navigation';
 
+import Home from './pages/Home';
+import About from './pages/About';
+import Books from './pages/Books';
+import Contacts from './pages/Contacts';
+
 class App extends Component {
     render() {
         return (
@@ -14,6 +19,11 @@ class App extends Component {
                         <Logo />
                         <Navigation />
                     </div>
+
+                    <Route path="/" exact component={Home} />
+                    <Route path="/about" exact component={About} />
+                    <Route path="/books" exact component={Books} />
+                    <Route path="/contacts" exact component={Contacts} />
                 </div>
             </BrowserRouter>
         );

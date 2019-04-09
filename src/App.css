@@ -1,4 +1,6 @@
 .app-header {
     display: flex;
     justify-content: space-between;
+    align-items: stretch;
+    border-bottom: 1px solid #F3BC1B;
 }
